@@ -1,0 +1,45 @@
+
+.contact{
+    text-decoration: none;
+    color: red;
+    font-size: small;
+    display: flex;
+    transition-duration: 0.3s;
+}
+.contact:hover{
+color: red;
+    
+}
+
+.navlink{
+    display: flex;
+    text-decoration: none;
+    font-family:"Roboto", sans-serif;
+    font-size: small;
+    transition-duration: 0.3s;
+}
+.navlink:hover{
+    color: red;
+}
+.logo{
+    display: flex;
+    margin-left: 60px;
+}
+.nav-links{
+    display: flex;
+    margin-right: 40%;
+}
+.nav-links>a{
+    margin-right: 20%;
+    color:black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.bckimg{
+    background-image:url(./home-banner.jpg.webp);
+    margin-top: 3%;
+    overflow-x: hidden;
+}
